@@ -1,4 +1,11 @@
 import streamlit as st
+
+st.set_page_config(
+    page_title="TradeLens",   # Browser tab title
+    page_icon="icon.png",     # Your icon image file (or emoji like "🚀")
+    layout="wide"             # Optional, makes the app full width
+)
+import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
